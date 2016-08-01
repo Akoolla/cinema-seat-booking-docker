@@ -1,0 +1,19 @@
+Notes on how to convert a nginx, mongo-db, java app to run in docker
+
+* Containers needed
+** nginx
+** mongo
+** java
+Look at https://github.com/Bankmonitor/docker for a image and instructions on how to spin up a spring boot jar 
+*** Note: must copy actual jar into docker folder, sym links don't work.
+
+* Network
+** Need to run all containers in the same network
+** TODO read about networks of containers
+** TODO Does docker compose do the above in a scripted way?
+
+* TODO CI
+
+* Deployment
+** TODO Google - https://cloud.google.com/container-engine/docs/
+** TODO Digital Ocean - https://www.digitalocean.com/
